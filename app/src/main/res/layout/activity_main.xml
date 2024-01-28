@@ -204,4 +204,18 @@
         tools:layout_editor_absoluteX="320dp"
         tools:layout_editor_absoluteY="530dp"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="answer"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="157dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
