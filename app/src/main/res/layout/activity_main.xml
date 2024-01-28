@@ -12,18 +12,18 @@
         android:layout_width="10.2mm"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:backgroundTint="#BF7A989C"
         android:text="C"
-        android:backgroundTint="@color/button_background_color"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="328dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="328dp" />
 
     <Button
         android:id="@+id/ChangeSign"
         android:layout_width="10.2mm"
         android:layout_height="wrap_content"
+        android:backgroundTint="#BF7A989C"
         android:text="+/-"
-        android:backgroundTint="@color/button_background_color"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="328dp" />
@@ -32,38 +32,38 @@
         android:id="@+id/delete"
         android:layout_width="10.2mm"
         android:layout_height="wrap_content"
+        android:backgroundTint="#BF7A989C"
         android:text="<-"
-        android:backgroundTint="@color/button_background_color"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="190dp"
         tools:layout_editor_absoluteY="328dp" />
 
     <Button
         android:id="@+id/division"
-        android:backgroundTint="@color/button_background_color"
         android:layout_width="10.2mm"
-    android:layout_height="wrap_content"
-    android:text="/"
-    tools:ignore="DuplicateIds,HardcodedText,InOrMmUsage,MissingConstraints"
-    tools:layout_editor_absoluteX="290dp"
-    tools:layout_editor_absoluteY="328dp" />
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="/"
+        tools:ignore="DuplicateIds,HardcodedText,InOrMmUsage,MissingConstraints"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="328dp" />
 
     <Button
-    android:id="@+id/multiply"
-    android:layout_width="10.2mm"
-    android:layout_height="wrap_content"
-    android:text="X"
-        android:backgroundTint="@color/button_background_color"
-    tools:ignore="MissingConstraints"
-    tools:layout_editor_absoluteX="290dp"
-    tools:layout_editor_absoluteY="395dp" />
+        android:id="@+id/multiply"
+        android:layout_width="10.2mm"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="X"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="395dp" />
 
     <Button
         android:id="@+id/minus"
         android:layout_width="10.2mm"
         android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
         android:text="-"
-        android:backgroundTint="@color/button_background_color"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="290dp"
         tools:layout_editor_absoluteY="465dp" />
@@ -72,8 +72,8 @@
         android:id="@+id/plus"
         android:layout_width="10.2mm"
         android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
         android:text="+"
-        android:backgroundTint="@color/button_background_color"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="290dp"
         tools:layout_editor_absoluteY="530dp" />
@@ -82,8 +82,8 @@
         android:id="@+id/equal"
         android:layout_width="10.2mm"
         android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
         android:text="="
-        android:backgroundTint="@color/button_background_color"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="290dp"
         tools:layout_editor_absoluteY="600dp" />
@@ -135,8 +135,8 @@
         android:id="@+id/point"
         android:layout_width="10.2mm"
         android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
         android:text="."
-        android:backgroundTint="@color/button_background_color"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="208dp"
         tools:layout_editor_absoluteY="600dp" />
