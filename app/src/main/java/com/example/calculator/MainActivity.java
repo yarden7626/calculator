@@ -1,21 +1,17 @@
 package com.example.calculator;
 
-import static com.example.calculator.R.id.zero;
-
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.media3.common.C;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity  {
+public class MainActivity extends AppCompatActivity {
 
-    TextView resultTextView;
+    TextView resultTextView = findViewById(R.id.result);
     double operand1, operand2;
     char operator;
 
@@ -23,8 +19,6 @@ public class MainActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        resultTextView = findViewById(R.id.result);
 
         // הוספת מאזין לכפתורים
         ButtonClickListener buttonClickListener = new ButtonClickListener();
@@ -46,7 +40,7 @@ public class MainActivity extends AppCompatActivity  {
         setButtonListener(R.id.division, buttonClickListener);
         setButtonListener(R.id.equal, buttonClickListener);
 
-        findViewById(R.id.C).setOnClickListener(new View.OnClickListener() {
+            findViewById(R.id.C).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 operand1 = 0;
