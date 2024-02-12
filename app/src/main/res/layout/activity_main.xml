@@ -33,7 +33,7 @@
         android:layout_width="10.2mm"
         android:layout_height="wrap_content"
         android:backgroundTint="#BF7A989C"
-        android:text="<-"
+        android:text="del"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="190dp"
         tools:layout_editor_absoluteY="328dp" />
