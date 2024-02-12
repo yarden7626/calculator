@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // קישור בין הכפתורים והטקסט ומיצוב המקורות
+
         buttonZero = findViewById(R.id.zero);
         buttonOne = findViewById(R.id.one);
         buttonTwo = findViewById(R.id.two);
@@ -70,9 +70,6 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
-        // כאן ניתן להמשיך בכפתורים הנוספים עם התצורה המתאימה כדי להוסיף את הפעולות
-        // או אפשרות למחיקה של ספרה וכו'
-
         // מאזין לכפתור חיבור
         buttonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,7 +95,6 @@ public class MainActivity extends AppCompatActivity  {
                     addition = false;
                 }
 
-                // כאן אפשר להמשיך ולהוסיף את הפעולות האחרות
             }
         });
 
